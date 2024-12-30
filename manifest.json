@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Image Downloader",
+  "version": "1.0",
+  "description": "Downloads all images on the current tab.",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "storage",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "direct-download.png"
+  }
+}
